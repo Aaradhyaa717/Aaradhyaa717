@@ -1,4 +1,4 @@
-### Hi there, I am Aaradhyaa👋
+### Hi there, I am Aaradhyaa <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif">
 
 <!--
 **Aaradhyaa717/Aaradhyaa717** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
