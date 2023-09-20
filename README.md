@@ -3,7 +3,6 @@
 ### Hi there, I am Aaradhyaa 
 
 
-I am a student and data enthusiast.
 
 
 ---
