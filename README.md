@@ -6,7 +6,7 @@
 
 
 ---
- -- 📫 How to reach me:  : <a href="https://twitter.com/AaradhyaaG"><img src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" height=20></a>  <a href="https://www.linkedin.com/in/aria717/"><img src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png" height=20></a>
+ -- 📫 How to reach me:  : <a href="https://twitter.com/AaradhyaaG"><img src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" height=20></a>  <a href="https://www.linkedin.com/in/aria717"><img src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png" height=20></a>
 
 
 
