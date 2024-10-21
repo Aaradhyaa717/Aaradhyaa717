@@ -1,0 +1,202 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  zoom: 97%;
+}
+
+html, body {
+  height: 100%; /* Ensures the body takes full height */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+
+  
+}
+
+header {
+  background-color: #33475b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header figure {
+  margin-bottom: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+header nav ul li {
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #00bcd4;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #33475b;
+}
+
+/* Main content */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  flex-grow: 1; /* Ensures content area expands to push footer down */
+}
+
+/* Main content */
+main {
+  padding: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #354259;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #354259;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5em;
+}
+
+/* Experience section */
+.experience-section {
+  padding: 1.5em;
+}
+
+.experience {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.experience:hover {
+  transform: translateY(-10px);
+}
+
+.experience h3 {
+  font-size: 1.5em;
+  color: #354259;
+  margin-bottom: 0.5em;
+}
+
+.experience p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 1em;
+}
+
+.experience ul {
+  padding-left: 1.5em;
+}
+
+.experience ul li {
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  color: #444;
+}
+
+.experience .skills {
+  font-size: 1.3em;
+}
+
+/* Figure styles */
+figure {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+figure img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #777;
+}
+
+a {
+  color: #354259;
+  text-decoration: none;
+}
+
+cite a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  .experience h3 {
+    font-size: 1.3em;
+  }
+
+  .experience ul li {
+    font-size: 0.9em;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #33475b;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: auto;
+  /* This pushes the footer to the bottom */
+}

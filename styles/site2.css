@@ -1,0 +1,194 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    zoom: 97%;
+}
+
+html, body {
+    height: 100%; /* Ensures the body takes full height */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+
+    
+}
+
+header {
+    background-color: #33475b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header figure {
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00bcd4;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #33475b;
+}
+
+/* Main content */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex-grow: 1; /* Ensures content area expands to push footer down */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #33475b;
+}
+
+.projects-section {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-section h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: #354259;
+}
+
+/* Project Styles */
+.project {
+    background-color: #fff;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-details {
+    flex: 2;
+}
+
+.project h2 {
+    font-size: 30px;
+    color: #354259;
+    margin-bottom: 0.5em;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.project figure {
+    margin: 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: inherit; /* Ensures link color does not change */
+  }
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project figcaption {
+    font-size: 1em;
+    color: #777;
+    margin-top: 0.5em;
+}
+
+]
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-image, .project-details {
+        flex: none;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .project h2 {
+        font-size: 1.8em;
+    }
+
+    .project p {
+        font-size: 1.1em;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #33475b;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: auto; /* This pushes the footer to the bottom */
+}
