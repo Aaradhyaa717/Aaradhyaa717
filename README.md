@@ -25,7 +25,6 @@ Python · R · SQL · JavaScript · HTML/CSS · Shiny · ggplot2 · Jupyter
 ---
 
 ## 📫 Connect
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aria717-blue?logo=linkedin)](https://www.linkedin.com/in/aria717/)
 [![Twitter](https://img.shields.io/badge/Twitter-@AaradhyaaG-1DA1F2?logo=twitter)](https://twitter.com/AaradhyaaG)
-[![Website](https://images.vexels.com/media/users/3/205566/isolated/preview/c65f9eac24be62dfdcc5f509a32930f8-website-icon-stroke.png)](https://aaradhyaa717.github.io/portfolio)
+[![Website](https://img.shields.io/badge/Website-Portfolio-000000?logo=google-chrome&logoColor=white)](https://aaradhyaa717.github.io/portfolio)
