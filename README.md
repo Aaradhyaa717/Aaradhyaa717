@@ -2,6 +2,7 @@
 
 Information Science student at Cornell University, interested in data, design, and building things that make information more accessible.
 
+Website: https://aaradhyaa717.github.io/portfolio
 ---
 
 ## 🔍 Featured Projects
